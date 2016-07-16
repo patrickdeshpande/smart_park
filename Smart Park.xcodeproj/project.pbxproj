@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDE290B01D3A0B6200EF59C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE290AF1D3A0B6200EF59C5 /* AppDelegate.swift */; };
+		CDE290B21D3A0B6200EF59C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE290B11D3A0B6200EF59C5 /* ViewController.swift */; };
+		CDE290B51D3A0B6200EF59C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE290B31D3A0B6200EF59C5 /* Main.storyboard */; };
+		CDE290B81D3A0B6200EF59C5 /* Smart_Park.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDE290B61D3A0B6200EF59C5 /* Smart_Park.xcdatamodeld */; };
+		CDE290BA1D3A0B6200EF59C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE290B91D3A0B6200EF59C5 /* Assets.xcassets */; };
+		CDE290BD1D3A0B6200EF59C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE290BB1D3A0B6200EF59C5 /* LaunchScreen.storyboard */; };
+		CDE290C81D3A0B6200EF59C5 /* Smart_ParkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE290C71D3A0B6200EF59C5 /* Smart_ParkTests.swift */; };
+		CDE290D31D3A0B6200EF59C5 /* Smart_ParkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE290D21D3A0B6200EF59C5 /* Smart_ParkUITests.swift */; };
+		CDE290E11D3A0D7F00EF59C5 /* EZHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE290E01D3A0D7F00EF59C5 /* EZHttp.swift */; };
+		CDE290E31D3A19B400EF59C5 /* parkingMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE290E21D3A19B400EF59C5 /* parkingMeter.swift */; };
+		CDE290E51D3A201D00EF59C5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE290E41D3A201D00EF59C5 /* MapKit.framework */; };
+		CDE290E71D3A591A00EF59C5 /* analysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE290E61D3A591A00EF59C5 /* analysisView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDE290C41D3A0B6200EF59C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDE290A41D3A0B6200EF59C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDE290AB1D3A0B6200EF59C5;
+			remoteInfo = "Smart Park";
+		};
+		CDE290CF1D3A0B6200EF59C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDE290A41D3A0B6200EF59C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDE290AB1D3A0B6200EF59C5;
+			remoteInfo = "Smart Park";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDE290AC1D3A0B6200EF59C5 /* Smart Park.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Park.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE290AF1D3A0B6200EF59C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDE290B11D3A0B6200EF59C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDE290B41D3A0B6200EF59C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDE290B71D3A0B6200EF59C5 /* Smart_Park.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Smart_Park.xcdatamodel; sourceTree = "<group>"; };
+		CDE290B91D3A0B6200EF59C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDE290BC1D3A0B6200EF59C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDE290BE1D3A0B6200EF59C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE290C31D3A0B6200EF59C5 /* Smart ParkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart ParkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE290C71D3A0B6200EF59C5 /* Smart_ParkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_ParkTests.swift; sourceTree = "<group>"; };
+		CDE290C91D3A0B6200EF59C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE290CE1D3A0B6200EF59C5 /* Smart ParkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart ParkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE290D21D3A0B6200EF59C5 /* Smart_ParkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_ParkUITests.swift; sourceTree = "<group>"; };
+		CDE290D41D3A0B6200EF59C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE290E01D3A0D7F00EF59C5 /* EZHttp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZHttp.swift; sourceTree = "<group>"; };
+		CDE290E21D3A19B400EF59C5 /* parkingMeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = parkingMeter.swift; sourceTree = "<group>"; };
+		CDE290E41D3A201D00EF59C5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CDE290E61D3A591A00EF59C5 /* analysisView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = analysisView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDE290A91D3A0B6200EF59C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE290E51D3A201D00EF59C5 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE290C01D3A0B6200EF59C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE290CB1D3A0B6200EF59C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDE290A31D3A0B6200EF59C5 = {
+			isa = PBXGroup;
+			children = (
+				CDE290E41D3A201D00EF59C5 /* MapKit.framework */,
+				CDE290AE1D3A0B6200EF59C5 /* Smart Park */,
+				CDE290C61D3A0B6200EF59C5 /* Smart ParkTests */,
+				CDE290D11D3A0B6200EF59C5 /* Smart ParkUITests */,
+				CDE290AD1D3A0B6200EF59C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDE290AD1D3A0B6200EF59C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDE290AC1D3A0B6200EF59C5 /* Smart Park.app */,
+				CDE290C31D3A0B6200EF59C5 /* Smart ParkTests.xctest */,
+				CDE290CE1D3A0B6200EF59C5 /* Smart ParkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDE290AE1D3A0B6200EF59C5 /* Smart Park */ = {
+			isa = PBXGroup;
+			children = (
+				CDE290E01D3A0D7F00EF59C5 /* EZHttp.swift */,
+				CDE290AF1D3A0B6200EF59C5 /* AppDelegate.swift */,
+				CDE290B11D3A0B6200EF59C5 /* ViewController.swift */,
+				CDE290E21D3A19B400EF59C5 /* parkingMeter.swift */,
+				CDE290B31D3A0B6200EF59C5 /* Main.storyboard */,
+				CDE290E61D3A591A00EF59C5 /* analysisView.swift */,
+				CDE290B91D3A0B6200EF59C5 /* Assets.xcassets */,
+				CDE290BB1D3A0B6200EF59C5 /* LaunchScreen.storyboard */,
+				CDE290BE1D3A0B6200EF59C5 /* Info.plist */,
+				CDE290B61D3A0B6200EF59C5 /* Smart_Park.xcdatamodeld */,
+			);
+			path = "Smart Park";
+			sourceTree = "<group>";
+		};
+		CDE290C61D3A0B6200EF59C5 /* Smart ParkTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDE290C71D3A0B6200EF59C5 /* Smart_ParkTests.swift */,
+				CDE290C91D3A0B6200EF59C5 /* Info.plist */,
+			);
+			path = "Smart ParkTests";
+			sourceTree = "<group>";
+		};
+		CDE290D11D3A0B6200EF59C5 /* Smart ParkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDE290D21D3A0B6200EF59C5 /* Smart_ParkUITests.swift */,
+				CDE290D41D3A0B6200EF59C5 /* Info.plist */,
+			);
+			path = "Smart ParkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDE290AB1D3A0B6200EF59C5 /* Smart Park */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE290D71D3A0B6200EF59C5 /* Build configuration list for PBXNativeTarget "Smart Park" */;
+			buildPhases = (
+				CDE290A81D3A0B6200EF59C5 /* Sources */,
+				CDE290A91D3A0B6200EF59C5 /* Frameworks */,
+				CDE290AA1D3A0B6200EF59C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Park";
+			productName = "Smart Park";
+			productReference = CDE290AC1D3A0B6200EF59C5 /* Smart Park.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDE290C21D3A0B6200EF59C5 /* Smart ParkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE290DA1D3A0B6200EF59C5 /* Build configuration list for PBXNativeTarget "Smart ParkTests" */;
+			buildPhases = (
+				CDE290BF1D3A0B6200EF59C5 /* Sources */,
+				CDE290C01D3A0B6200EF59C5 /* Frameworks */,
+				CDE290C11D3A0B6200EF59C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDE290C51D3A0B6200EF59C5 /* PBXTargetDependency */,
+			);
+			name = "Smart ParkTests";
+			productName = "Smart ParkTests";
+			productReference = CDE290C31D3A0B6200EF59C5 /* Smart ParkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDE290CD1D3A0B6200EF59C5 /* Smart ParkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE290DD1D3A0B6200EF59C5 /* Build configuration list for PBXNativeTarget "Smart ParkUITests" */;
+			buildPhases = (
+				CDE290CA1D3A0B6200EF59C5 /* Sources */,
+				CDE290CB1D3A0B6200EF59C5 /* Frameworks */,
+				CDE290CC1D3A0B6200EF59C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDE290D01D3A0B6200EF59C5 /* PBXTargetDependency */,
+			);
+			name = "Smart ParkUITests";
+			productName = "Smart ParkUITests";
+			productReference = CDE290CE1D3A0B6200EF59C5 /* Smart ParkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDE290A41D3A0B6200EF59C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Patrick Deshpande";
+				TargetAttributes = {
+					CDE290AB1D3A0B6200EF59C5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					CDE290C21D3A0B6200EF59C5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CDE290AB1D3A0B6200EF59C5;
+					};
+					CDE290CD1D3A0B6200EF59C5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CDE290AB1D3A0B6200EF59C5;
+					};
+				};
+			};
+			buildConfigurationList = CDE290A71D3A0B6200EF59C5 /* Build configuration list for PBXProject "Smart Park" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDE290A31D3A0B6200EF59C5;
+			productRefGroup = CDE290AD1D3A0B6200EF59C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDE290AB1D3A0B6200EF59C5 /* Smart Park */,
+				CDE290C21D3A0B6200EF59C5 /* Smart ParkTests */,
+				CDE290CD1D3A0B6200EF59C5 /* Smart ParkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDE290AA1D3A0B6200EF59C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE290BD1D3A0B6200EF59C5 /* LaunchScreen.storyboard in Resources */,
+				CDE290BA1D3A0B6200EF59C5 /* Assets.xcassets in Resources */,
+				CDE290B51D3A0B6200EF59C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE290C11D3A0B6200EF59C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE290CC1D3A0B6200EF59C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDE290A81D3A0B6200EF59C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE290B21D3A0B6200EF59C5 /* ViewController.swift in Sources */,
+				CDE290B01D3A0B6200EF59C5 /* AppDelegate.swift in Sources */,
+				CDE290E11D3A0D7F00EF59C5 /* EZHttp.swift in Sources */,
+				CDE290B81D3A0B6200EF59C5 /* Smart_Park.xcdatamodeld in Sources */,
+				CDE290E71D3A591A00EF59C5 /* analysisView.swift in Sources */,
+				CDE290E31D3A19B400EF59C5 /* parkingMeter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE290BF1D3A0B6200EF59C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE290C81D3A0B6200EF59C5 /* Smart_ParkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE290CA1D3A0B6200EF59C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE290D31D3A0B6200EF59C5 /* Smart_ParkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDE290C51D3A0B6200EF59C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDE290AB1D3A0B6200EF59C5 /* Smart Park */;
+			targetProxy = CDE290C41D3A0B6200EF59C5 /* PBXContainerItemProxy */;
+		};
+		CDE290D01D3A0B6200EF59C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDE290AB1D3A0B6200EF59C5 /* Smart Park */;
+			targetProxy = CDE290CF1D3A0B6200EF59C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDE290B31D3A0B6200EF59C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE290B41D3A0B6200EF59C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDE290BB1D3A0B6200EF59C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE290BC1D3A0B6200EF59C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDE290D51D3A0B6200EF59C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDE290D61D3A0B6200EF59C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDE290D81D3A0B6200EF59C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Smart Park/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "p.Smart-Park";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDE290D91D3A0B6200EF59C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Smart Park/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "p.Smart-Park";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDE290DB1D3A0B6200EF59C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Smart ParkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "p.Smart-ParkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Park.app/Smart Park";
+			};
+			name = Debug;
+		};
+		CDE290DC1D3A0B6200EF59C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Smart ParkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "p.Smart-ParkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Park.app/Smart Park";
+			};
+			name = Release;
+		};
+		CDE290DE1D3A0B6200EF59C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Smart ParkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "p.Smart-ParkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Smart Park";
+			};
+			name = Debug;
+		};
+		CDE290DF1D3A0B6200EF59C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Smart ParkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "p.Smart-ParkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Smart Park";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDE290A71D3A0B6200EF59C5 /* Build configuration list for PBXProject "Smart Park" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE290D51D3A0B6200EF59C5 /* Debug */,
+				CDE290D61D3A0B6200EF59C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE290D71D3A0B6200EF59C5 /* Build configuration list for PBXNativeTarget "Smart Park" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE290D81D3A0B6200EF59C5 /* Debug */,
+				CDE290D91D3A0B6200EF59C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDE290DA1D3A0B6200EF59C5 /* Build configuration list for PBXNativeTarget "Smart ParkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE290DB1D3A0B6200EF59C5 /* Debug */,
+				CDE290DC1D3A0B6200EF59C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDE290DD1D3A0B6200EF59C5 /* Build configuration list for PBXNativeTarget "Smart ParkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE290DE1D3A0B6200EF59C5 /* Debug */,
+				CDE290DF1D3A0B6200EF59C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CDE290B61D3A0B6200EF59C5 /* Smart_Park.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CDE290B71D3A0B6200EF59C5 /* Smart_Park.xcdatamodel */,
+			);
+			currentVersion = CDE290B71D3A0B6200EF59C5 /* Smart_Park.xcdatamodel */;
+			path = Smart_Park.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CDE290A41D3A0B6200EF59C5 /* Project object */;
+}
